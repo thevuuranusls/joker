@@ -1,6 +1,6 @@
 <img src="https://dl.dropboxusercontent.com/u/56336/omf/omf-logo-optimised.svg" align="left" width="144px" height="144px"/>
 
-#### Batman
+#### joker
 > A [Oh My Fish][omf-link] theme inspired by Batman.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
