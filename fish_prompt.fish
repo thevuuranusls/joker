@@ -6,7 +6,7 @@ function fish_prompt
   set -l pwd (prompt_pwd)
   set -l base (basename "$pwd")
 
-  set -l expr "s|~|"(fst)"^^"(off)"|g; \
+  set -l expr "s|~|"(fst)"~"(off)"|g; \
                s|/|"(snd)"/"(off)"|g;  \
                s|"$base"|"(fst)$base(off)" |g"
 
