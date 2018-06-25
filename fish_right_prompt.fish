@@ -39,5 +39,5 @@ function fish_right_prompt
         end
     end)(snd)") "(off)
   end
-  printf (dim)(date +%H(fst):(dim)%M(fst):(dim)%S)(off)" "
+  #printf (dim)(date +%H(fst):(dim)%M(fst):(dim)%S)(off)" "
 end
