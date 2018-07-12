@@ -22,22 +22,22 @@ function fish_right_prompt
      printf (trd)":"(dim)"$HOSTNAME "(off)
    end
 
-  if git rev-parse 2> /dev/null
-    git::is_stashed; and echo (trd)"^"(off)
-    printf (snd)"("(begin
-      if git::is_touched
-        echo (trd)"*"(off)
-      else
-        echo ""
-      end
-    end)(fst)(git::branch_name)(snd)(begin
-      set -l count (git::get_ahead_count)
-        if test $count -eq 0
-          echo ""
-        else
-          echo (trd)"+"(fst)$count
-        end
-    end)(snd)") "(off)
-  end
+#if git rev-parse 2> /dev/null
+#   git::is_stashed; and echo (trd)"^"(off)
+#   printf (snd)"("(begin
+#     if git::is_touched
+#       echo (trd)"*"(off)
+#     else
+#       echo ""
+#     end
+#   end)(fst)(git::branch_name)(snd)(begin
+#     set -l count (git::get_ahead_count)
+#       if test $count -eq 0
+#         echo ""
+#       else
+#         echo (trd)"+"(fst)$count
+#       end
+#   end)(snd)")"(off)
+# end
   #printf (dim)(date +%H(fst):(dim)%M(fst):(dim)%S)(off)" "
 end
