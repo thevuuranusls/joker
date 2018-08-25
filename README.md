@@ -1,5 +1,3 @@
-<img src="https://dl.dropboxusercontent.com/u/56336/omf/omf-logo-optimised.svg" align="left" width="144px" height="144px"/>
-
 #### Joker
 > A [Oh My Fish][omf-link] theme inspired by Batman -> Joker.
 
