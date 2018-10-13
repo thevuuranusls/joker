@@ -5,6 +5,6 @@ function dim; set_color    666; end
 function off; set_color normal; end
 
 function fish_greeting
-#echo (dim)(uname -mnprs)(off)
-  echo (dim)'hello'(off)
+#   echo (dim)(uname -mnprs)(off)
+#   echo (dim)'hello'(off)
 end
